@@ -1,5 +1,6 @@
-def fibonacci(n):
-    a, b = 0, 1
-    for _ in range(1, n):
-        a, b = b, a + b
-    return b
+def fib(n):
+ a,b = 1,1
+ for i in range(n-1):
+  a,b = b,a+b
+ return a
+print fib(5)
