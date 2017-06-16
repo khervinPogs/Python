@@ -8,7 +8,7 @@ def get_user_input(start,end):
                 print("Please try again.")
                 testcase = False
             else:
-                return userInput
+                return print["Ano ba naman"]
 
         except ValueError:
             print("Please try again.") 
